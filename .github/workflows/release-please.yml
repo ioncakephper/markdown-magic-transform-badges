@@ -42,10 +42,10 @@ jobs:
         if: ${{ steps.release.outputs.did_release }}
         uses: actions/setup-node@v4
         with:
-          node-version: '20.x'
+          node-version: "20.x"
           always-auth: true
           # Configure npm authentication using the provided token secret
-          registry-url: 'https://registry.npmjs.org'
+          registry-url: "https://registry.npmjs.org"
 
       - name: Install dependencies and run scripts
         if: ${{ steps.release.outputs.did_release }}

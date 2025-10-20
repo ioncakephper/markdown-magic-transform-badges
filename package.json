@@ -50,6 +50,13 @@
     "type": "git",
     "url": "https://github.com/ioncakephper/markdown-magic-transform-badges.git"
   },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE",
+    "CONTRIBUTING.md",
+    "RULES_OF_CONDUCT.md"
+  ],
   "keywords": [
     "transform",
     "markdown-magic",
