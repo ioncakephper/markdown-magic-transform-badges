@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/ioncakephper/markdown-magic-transform-badges/compare/v1.0.1...v1.1.0) (2025-10-20)
+
+
+### Features
+
+* **badges:** Add npm link to generated version badge ([1727fb2](https://github.com/ioncakephper/markdown-magic-transform-badges/commit/1727fb2196b45a23fd2eca569e952d5daff57e51))
+
 ## [1.0.1](https://github.com/ioncakephper/markdown-magic-transform-badges/compare/v1.0.0...v1.0.1) (2025-10-20)
 
 
