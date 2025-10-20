@@ -1,8 +1,57 @@
 # markdown-magic-transform-badges
 
-<!-- doc-gen BADGES -->
+Generates a set of project badges based on `package.json` and the repository specified in `package.json.repository`.
+
+<!-- doc-gen BADGES style=for-the-badge collapse=true collapseLabel="More metrics" collapseVisible=4 ciWorkflow=build.yml ciBranch=develop -->
 [![npm version](https://img.shields.io/npm/v/markdown-magic-transform-badges.svg)](https://www.npmjs.com/package/markdown-magic-transform-badges) [![npm downloads](https://img.shields.io/npm/dw/markdown-magic-transform-badges.svg)](https://www.npmjs.com/package/markdown-magic-transform-badges) ![version](https://img.shields.io/badge/version-0.1.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![actions status](https://img.shields.io/github/actions/workflow/status/ioncakephper/markdown-magic-transform-badges/ci.yml?branch=main)](https://github.com/ioncakephper/markdown-magic-transform-badges/actions) [![codecov](https://img.shields.io/codecov/c/github/ioncakephper/markdown-magic-transform-badges?branch=main)](https://codecov.io/gh/ioncakephper/markdown-magic-transform-badges) [![release](https://img.shields.io/github/v/release/ioncakephper/markdown-magic-transform-badges)](https://github.com/ioncakephper/markdown-magic-transform-badges/releases) [![maintained](https://img.shields.io/github/commit-activity/y/ioncakephper/markdown-magic-transform-badges)](https://github.com/ioncakephper/markdown-magic-transform-badges/graphs/commit-activity) [![stars](https://img.shields.io/github/stars/ioncakephper/markdown-magic-transform-badges)](https://github.com/ioncakephper/markdown-magic-transform-badges/stargazers) [![forks](https://img.shields.io/github/forks/ioncakephper/markdown-magic-transform-badges)](https://github.com/ioncakephper/markdown-magic-transform-badges/network/members) [![watchers](https://img.shields.io/github/watchers/ioncakephper/markdown-magic-transform-badges)](https://github.com/ioncakephper/markdown-magic-transform-badges/watchers) [![last commit](https://img.shields.io/github/last-commit/ioncakephper/markdown-magic-transform-badges)](https://github.com/ioncakephper/markdown-magic-transform-badges/commits) [![contributors](https://img.shields.io/github/contributors/ioncakephper/markdown-magic-transform-badges)](https://github.com/ioncakephper/markdown-magic-transform-badges/graphs/contributors) [![issues](https://img.shields.io/github/issues/ioncakephper/markdown-magic-transform-badges)](https://github.com/ioncakephper/markdown-magic-transform-badges/issues) [![pull requests](https://img.shields.io/github/issues-pr/ioncakephper/markdown-magic-transform-badges)](https://github.com/ioncakephper/markdown-magic-transform-badges/pulls) [![repo size](https://img.shields.io/github/repo-size/ioncakephper/markdown-magic-transform-badges)](https://github.com/ioncakephper/markdown-magic-transform-badges) [![top language](https://img.shields.io/github/languages/top/ioncakephper/markdown-magic-transform-badges)](https://github.com/ioncakephper/markdown-magic-transform-badges) [![languages](https://img.shields.io/github/languages/count/ioncakephper/markdown-magic-transform-badges)](https://github.com/ioncakephper/markdown-magic-transform-badges/search?l=)
 <!-- end-doc-gen -->
+
+## Badges generated (when applicable)
+
+- `npmVersion`: npm package version
+- `npmDownloads`: npm downloads (weekly)
+- `version`: package.json version (custom badge)
+- `license`: package license
+- `actions`: GitHub Actions workflow status (uses `ciWorkflow` and `ciBranch` options or package.json fields, defaults to `ci.yml` and `main`)
+- `codecov`: codecov coverage badge (branch: main)
+- `release`: latest GitHub release
+- `maintained`: commit-activity (yearly)
+- `stars`: GitHub stars
+- `forks`: GitHub forks
+- `watchers`: GitHub watchers
+- `lastCommit`: last commit date
+- `contributors`: contributors count
+- `issues`: open issues
+- `pulls`: open PRs
+- `repoSize`: repository size
+- `topLanguage`: top language in repo
+- `languages`: count of languages
+
+## Options (via doc-gen block or markdown-magic settings)
+
+- `style`: shields.io style (e.g. 'flat', 'flat-square', 'for-the-badge', 'plastic')
+  Applies to shields.io badges. Internally a `style` query is appended
+  as `?style=...` or `&style=...` if the badge URL already contains query params.
+- `collapse`: boolean (default false). If true, less-important badges are
+  hidden inside a GitHub <details> block.
+- `collapseLabel`: string (default 'More badges') — label used for the
+  <summary> when collapsing.
+- `collapseVisible`: number (default 3) — how many badges are shown
+  before collapsing the rest.
+- `ciWorkflow`: string (optional) — GitHub Actions workflow file name. Uses value from options or package.json, defaults to 'ci.yml'.
+- `ciBranch`: string (optional) — GitHub Actions branch name. Uses value from options or package.json, defaults to 'main'.
+
+Example usage in README.md:
+```html
+<!-- your-doc-gen-block BADGES style=for-the-badge collapse=true collapseLabel="More metrics" collapseVisible=4 ciWorkflow="build.yml" ciBranch="develop" -->
+ <!-- end-your-doc-gen-block -->
+```
+
+Notes:
+- Repository parsing supports both string and { url } forms in package.json
+  (e.g. "git+https://github.com/owner/repo.git" or { "type": "git", "url": "..." }).
+- The `actions` badge uses the workflow file and branch specified by the `ciWorkflow` and `ciBranch` options or package.json fields, falling back to `ci.yml` and `main` if not provided.
+     
 
 ## Contributing
 
@@ -19,11 +68,13 @@ This project is licensed under the terms of the MIT License. See the [`LICENSE`]
 <!-- doc-gen fileTree -->
 ```
 └── markdown-magic-transform-badges/
+    ├── CONTRIBUTING.md
     ├── index.js
+    ├── LICENSE
     ├── markdown-magic.config.js
     ├── package-lock.json
     ├── package.json
-    └── README.md
+    ├── README.md
+    └── RULES_OF_CONDUCT.md
 ```
 <!-- end-doc-gen -->
-
