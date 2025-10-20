@@ -59,9 +59,9 @@ module.exports = ({ transform, options, settings = {} }) => {
   if (pkg.version) {
     pushBadge(
       "version",
-      `![version](https://img.shields.io/badge/version-${encodeURIComponent(
+      `[![version](https://img.shields.io/badge/version-${encodeURIComponent(
         pkg.version,
-      )}-blue.svg${style})`,
+      )}-blue.svg${style})](https://www.npmjs.com/package/${encodeURIComponent(name)})`,
     );
   }
 
