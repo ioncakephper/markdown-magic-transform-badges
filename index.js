@@ -28,7 +28,7 @@ module.exports = ({ transform, options, settings = {} }) => {
   // For URLs that already have a query param (eg ?branch=main) append with &
   const styleAmp = opts.style ? `&style=${encodeURIComponent(opts.style)}` : "";
   const pkgPath = path.join(process.cwd(), "package.json");
-  if (!require("fs").existsSync(pkgPath)) return "";
+  if (!fs.existsSync(pkgPath)) return "";
   const pkg = require(pkgPath);
 
   const allBadges = [];
