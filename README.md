@@ -1,16 +1,94 @@
 # markdown-magic-transform-badges
 
-<!-- doc-gen BADGES style=for-the-badge collapse=true collapseLabel="More badges" collapseVisible=3 ciWorkflow="ci.yml" ciBranch="main" -->
+<!-- doc-gen BADGES style=for-the-badge collapseLabel="More badges" collapseVisible=3 ciWorkflow="ci.yml" ciBranch="main" -->
 
-[![npm version](https://img.shields.io/npm/v/markdown-magic-transform-badges.svg?style=for-the-badge)](https://www.npmjs.com/package/markdown-magic-transform-badges) [![actions status](https://img.shields.io/github/actions/workflow/status/ioncakephper/markdown-magic-transform-badges/ci.yml?branch=main&style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/actions) ![license](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)
+[![npm version](https://img.shields.io/npm/v/markdown-magic-transform-badges.svg?style=for-the-badge)](https://www.npmjs.com/package/markdown-magic-transform-badges) [![npm downloads](https://img.shields.io/npm/dw/markdown-magic-transform-badges.svg?style=for-the-badge)](https://www.npmjs.com/package/markdown-magic-transform-badges) ![version](https://img.shields.io/badge/version-1.0.0-blue.svg?style=for-the-badge) ![license](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge) [![actions status](https://img.shields.io/github/actions/workflow/status/ioncakephper/markdown-magic-transform-badges/ci.yml?branch=main&style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/actions) [![codecov](https://img.shields.io/codecov/c/github/ioncakephper/markdown-magic-transform-badges?branch=main&style=for-the-badge)](https://codecov.io/gh/ioncakephper/markdown-magic-transform-badges) [![release](https://img.shields.io/github/v/release/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/releases) [![maintained](https://img.shields.io/github/commit-activity/y/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/graphs/commit-activity) [![stars](https://img.shields.io/github/stars/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/stargazers) [![forks](https://img.shields.io/github/forks/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/network/members) [![watchers](https://img.shields.io/github/watchers/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/watchers) [![last commit](https://img.shields.io/github/last-commit/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/commits) [![contributors](https://img.shields.io/github/contributors/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/graphs/contributors) [![issues](https://img.shields.io/github/issues/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/issues) [![pull requests](https://img.shields.io/github/issues-pr/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/pulls) [![repo size](https://img.shields.io/github/repo-size/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges) [![top language](https://img.shields.io/github/languages/top/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges) [![languages](https://img.shields.io/github/languages/count/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/search?l=)
 
-<details>
-<summary>More badges</summary>
-
-[![npm downloads](https://img.shields.io/npm/dw/markdown-magic-transform-badges.svg?style=for-the-badge)](https://www.npmjs.com/package/markdown-magic-transform-badges) ![version](https://img.shields.io/badge/version-1.0.0-blue.svg?style=for-the-badge) [![codecov](https://img.shields.io/codecov/c/github/ioncakephper/markdown-magic-transform-badges?branch=main&style=for-the-badge)](https://codecov.io/gh/ioncakephper/markdown-magic-transform-badges) [![release](https://img.shields.io/github/v/release/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/releases) [![maintained](https://img.shields.io/github/commit-activity/y/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/graphs/commit-activity) [![stars](https://img.shields.io/github/stars/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/stargazers) [![forks](https://img.shields.io/github/forks/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/network/members) [![watchers](https://img.shields.io/github/watchers/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/watchers) [![last commit](https://img.shields.io/github/last-commit/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/commits) [![contributors](https://img.shields.io/github/contributors/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/graphs/contributors) [![issues](https://img.shields.io/github/issues/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/issues) [![pull requests](https://img.shields.io/github/issues-pr/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/pulls) [![repo size](https://img.shields.io/github/repo-size/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges) [![top language](https://img.shields.io/github/languages/top/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges) [![languages](https://img.shields.io/github/languages/count/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/search?l=)
-
-</details>
 <!-- end-doc-gen -->
+
+This package provides a markdown-magic transform that generates badge markup for repositories and other targets so you can embed dynamic, up-to-date badges inside Markdown documentation.
+
+## Installation
+
+```bash
+npm install --save-dev markdown-magic-transform-badges
+```
+
+## Basic usage in Markdown Files
+
+- Add a markdown-magic transform block where you want badges rendered.
+- Use an HTML comment block with the transform name and any options.
+
+Example comment that asks the transform to render badges:
+
+```markdown
+<!-- MARKDOWN-MAGIC:START BADGES -->
+<!-- MARKDOWN-MAGIC:END BADGES -->
+```
+
+## Generate Badges
+
+Create `markdown-magic.config.js` as a configuration file for markdown-magic library.
+
+```js
+module.exports = {
+  transforms: {
+    BADGES: require("markdown-magic-transform-badges"),
+  },
+  transformDefaults: {
+    // example defaults you provide for your project
+    BADGES: {
+      style: "flat",
+    },
+  },
+};
+```
+
+At the prompt, run:
+
+```bash
+npx markdown-magic README.md --config ./markdown-magic.config.js
+```
+
+## Configuration (global defaults and per-file)
+
+- Set global defaults for the transform in your markdown-magic config under transformDefaults.badges so projects get consistent badge styling and data by default.
+
+Example markdown-magic.config.js:
+
+```js
+module.exports = {
+  transformDefaults: {
+    BADGES: {
+      // example defaults you provide for your project
+      style: "flat-square",
+    },
+  },
+};
+```
+
+- Override defaults per file by supplying options inside the transform comment block. Per-file options take precedence over transformDefaults
+
+## Common options and behavior
+
+- style — badge style string passed to the badge generator.
+- collapse - boolean value to generate a collapsable set of badges
+- collapseLabel - string to use to prompt expanded set of badges
+
+## Example with inline options
+
+```markdown
+<!-- MARKDOWN-MAGIC:START BADGES "style"="flat" -->
+<!-- MARKDOWN-MAGIC:END badges -->
+```
+
+This will replace the block with the generated badge markup according to the enabled items and style.
+
+## Notes for maintainers and contributors
+
+- Document the full set of available options and defaults in README so users can copy examples into their md.config.js or inline blocks.
+- Provide example outputs in the README so visitors see the rendered badge HTML and markdown.
+- Keep the transform idempotent and safe for CI runs where docs are regenerated automatically
 
 ## Badges generated (when applicable)
 
@@ -35,7 +113,7 @@
 
 ## Options (via doc-gen block or markdown-magic settings)
 
-- `style`: shields.io style (e.g. 'flat', 'flat-square', 'for-the-badge', 'plastic')
+- `style`: shields.io style (e.g. 'flat', 'flat-square', 'for-the-badge', 'plastic', 'social', 'github')
   Applies to shields.io badges. Internally a `style` query is appended
   as `?style=...` or `&style=...` if the badge URL already contains query params.
 - `collapse`: boolean (default false). If true, less-important badges are
@@ -49,7 +127,7 @@
 
 Example usage in README.md:
 
-```html
+```markdown
 <!-- your-doc-gen-block BADGES style=for-the-badge collapse=true collapseLabel="More metrics" collapseVisible=4 ciWorkflow="build.yml" ciBranch="develop" -->
 <!-- end-your-doc-gen-block -->
 ```
@@ -120,7 +198,7 @@ This project is licensed under the terms of the MIT License. See the [`LICENSE`]
 - `test` — Run the test suite using Jest. (line [6](./package.json#L6))
 
   ```bash
-  jest passWithNoTests
+  jest --passWithNoTests
   ```
 
   <!-- end-doc-gen -->
