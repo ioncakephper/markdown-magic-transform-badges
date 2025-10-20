@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest passWithNoTests",
-    "docs": "npx markdown-magic"
+    "docs": "npx markdown-magic README.md --config ./markdown-magic.config.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,9 @@
   "description": "",
   "devDependencies": {
     "markdown-magic": "^3.7.0"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
   }
 }
