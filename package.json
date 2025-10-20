@@ -1,0 +1,26 @@
+{
+  "name": "markdown-magic-transform-badges",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest passWithNoTests",
+    "docs": "npx markdown-magic"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ioncakephper/markdown-magic-transform-badges.git"
+  },
+  "keywords": [
+    "transform",
+    "markdown-magic",
+    "automation",
+    "README",
+    "badges"
+  ],
+  "author": "Ion Gireada",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "markdown-magic": "^3.7.0"
+  }
+}
