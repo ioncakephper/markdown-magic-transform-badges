@@ -1,9 +1,15 @@
 # markdown-magic-transform-badges
 
-<!-- doc-gen BADGES -->
+<!-- doc-gen BADGES style=for-the-badge collapse=true collapseLabel="More badges" collapseVisible=3 ciWorkflow="ci.yml" ciBranch="main" -->
 
-[![npm version](https://img.shields.io/npm/v/markdown-magic-transform-badges.svg)](https://www.npmjs.com/package/markdown-magic-transform-badges) [![npm downloads](https://img.shields.io/npm/dw/markdown-magic-transform-badges.svg)](https://www.npmjs.com/package/markdown-magic-transform-badges) ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![actions status](https://img.shields.io/github/actions/workflow/status/ioncakephper/markdown-magic-transform-badges/ci.yml?branch=main)](https://github.com/ioncakephper/markdown-magic-transform-badges/actions) [![codecov](https://img.shields.io/codecov/c/github/ioncakephper/markdown-magic-transform-badges?branch=main)](https://codecov.io/gh/ioncakephper/markdown-magic-transform-badges) [![release](https://img.shields.io/github/v/release/ioncakephper/markdown-magic-transform-badges)](https://github.com/ioncakephper/markdown-magic-transform-badges/releases) [![maintained](https://img.shields.io/github/commit-activity/y/ioncakephper/markdown-magic-transform-badges)](https://github.com/ioncakephper/markdown-magic-transform-badges/graphs/commit-activity) [![stars](https://img.shields.io/github/stars/ioncakephper/markdown-magic-transform-badges)](https://github.com/ioncakephper/markdown-magic-transform-badges/stargazers) [![forks](https://img.shields.io/github/forks/ioncakephper/markdown-magic-transform-badges)](https://github.com/ioncakephper/markdown-magic-transform-badges/network/members) [![watchers](https://img.shields.io/github/watchers/ioncakephper/markdown-magic-transform-badges)](https://github.com/ioncakephper/markdown-magic-transform-badges/watchers) [![last commit](https://img.shields.io/github/last-commit/ioncakephper/markdown-magic-transform-badges)](https://github.com/ioncakephper/markdown-magic-transform-badges/commits) [![contributors](https://img.shields.io/github/contributors/ioncakephper/markdown-magic-transform-badges)](https://github.com/ioncakephper/markdown-magic-transform-badges/graphs/contributors) [![issues](https://img.shields.io/github/issues/ioncakephper/markdown-magic-transform-badges)](https://github.com/ioncakephper/markdown-magic-transform-badges/issues) [![pull requests](https://img.shields.io/github/issues-pr/ioncakephper/markdown-magic-transform-badges)](https://github.com/ioncakephper/markdown-magic-transform-badges/pulls) [![repo size](https://img.shields.io/github/repo-size/ioncakephper/markdown-magic-transform-badges)](https://github.com/ioncakephper/markdown-magic-transform-badges) [![top language](https://img.shields.io/github/languages/top/ioncakephper/markdown-magic-transform-badges)](https://github.com/ioncakephper/markdown-magic-transform-badges) [![languages](https://img.shields.io/github/languages/count/ioncakephper/markdown-magic-transform-badges)](https://github.com/ioncakephper/markdown-magic-transform-badges/search?l=)
+[![npm version](https://img.shields.io/npm/v/markdown-magic-transform-badges.svg?style=for-the-badge)](https://www.npmjs.com/package/markdown-magic-transform-badges) [![actions status](https://img.shields.io/github/actions/workflow/status/ioncakephper/markdown-magic-transform-badges/ci.yml?branch=main&style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/actions) ![license](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)
 
+<details>
+<summary>More badges</summary>
+
+[![npm downloads](https://img.shields.io/npm/dw/markdown-magic-transform-badges.svg?style=for-the-badge)](https://www.npmjs.com/package/markdown-magic-transform-badges) ![version](https://img.shields.io/badge/version-1.0.0-blue.svg?style=for-the-badge) [![codecov](https://img.shields.io/codecov/c/github/ioncakephper/markdown-magic-transform-badges?branch=main&style=for-the-badge)](https://codecov.io/gh/ioncakephper/markdown-magic-transform-badges) [![release](https://img.shields.io/github/v/release/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/releases) [![maintained](https://img.shields.io/github/commit-activity/y/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/graphs/commit-activity) [![stars](https://img.shields.io/github/stars/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/stargazers) [![forks](https://img.shields.io/github/forks/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/network/members) [![watchers](https://img.shields.io/github/watchers/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/watchers) [![last commit](https://img.shields.io/github/last-commit/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/commits) [![contributors](https://img.shields.io/github/contributors/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/graphs/contributors) [![issues](https://img.shields.io/github/issues/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/issues) [![pull requests](https://img.shields.io/github/issues-pr/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/pulls) [![repo size](https://img.shields.io/github/repo-size/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges) [![top language](https://img.shields.io/github/languages/top/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges) [![languages](https://img.shields.io/github/languages/count/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/search?l=)
+
+</details>
 <!-- end-doc-gen -->
 
 ## Badges generated (when applicable)
@@ -67,17 +73,13 @@ This project is licensed under the terms of the MIT License. See the [`LICENSE`]
 
 ## Helper Scripts
 
-<!-- doc-gen SCRIPTS format=list groupBy=category -->
-
-### documentation
+<!-- doc-gen SCRIPTS format=list -->
 
 - `docs` — Generate documentation by processing README.md with markdown-magic. (line [12](./package.json#L12))
 
   ```bash
   npx markdown-magic README.md --config ./markdown-magic.config.js
   ```
-
-### precommit
 
 - `fix` — Automatically fix linting issues and format codebase. (line [7](./package.json#L7))
 
@@ -97,6 +99,12 @@ This project is licensed under the terms of the MIT License. See the [`LICENSE`]
   prettier --write package.json
   ```
 
+- `lint` — Lint all project files to ensure code quality and consistency. (line [10](./package.json#L10))
+
+  ```bash
+  eslint . --ext .js,.json,.yaml,.yml,.md
+  ```
+
 - `lint:fix` — Lint all project files and automatically fix issues where possible. (line [11](./package.json#L11))
 
   ```bash
@@ -107,14 +115,6 @@ This project is licensed under the terms of the MIT License. See the [`LICENSE`]
 
   ```bash
   npm run docs && npm run fix
-  ```
-
-### verification
-
-- `lint` — Lint all project files to ensure code quality and consistency. (line [10](./package.json#L10))
-
-  ```bash
-  eslint . --ext .js,.json,.yaml,.yml,.md
   ```
 
 - `test` — Run the test suite using Jest. (line [6](./package.json#L6))

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest passWithNoTests",
+    "test": "jest --passWithNoTests",
     "fix": "npm run lint:fix && npm run format && npm run format:package",
     "format": "prettier --write .",
     "format:package": "prettier --write package.json",
