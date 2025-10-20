@@ -11,7 +11,8 @@ function parseRepo(repo) {
 
   const m = repo.match(/github\.com[:\/](.+?)\/?$/i);
   if (!m) return null;
-  return m[1]; // owner/repo
+   // owner/repo
+  return m[1];
 }
 
 module.exports = ({ transform, options, settings = {} }) => {
