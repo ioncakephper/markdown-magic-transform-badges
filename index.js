@@ -56,21 +56,14 @@ module.exports = ({ transform, options, settings = {} }) => {
     );
   }
 
-  if (pkg.version) {
-    pushBadge(
-      "version",
-      `[![version](https://img.shields.io/badge/version-${encodeURIComponent(
-        pkg.version,
-      )}-blue.svg${style})](https://www.npmjs.com/package/${encodeURIComponent(name)})`,
-    );
-  }
-
   if (pkg.license) {
     pushBadge(
       "license",
-      `![license](https://img.shields.io/badge/license-${encodeURIComponent(
+      `[![license](https://img.shields.io/badge/license-${encodeURIComponent(
         pkg.license,
-      )}-blue.svg${style})`,
+      )}-blue.svg${style})](https://www.npmjs.com/package/${encodeURIComponent(
+        name,
+      )})`,
     );
   }
 
