@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/ioncakephper/markdown-magic-transform-badges/compare/v1.0.0...v1.0.1) (2025-10-20)
+
+
+### Bug Fixes
+
+* **readme:** implement collapsible badge section ([b7ff0e3](https://github.com/ioncakephper/markdown-magic-transform-badges/commit/b7ff0e31263e3a5726caee6569c11069431542ec))
+
 ## 1.0.0 (2025-10-20)
 
 ### Features
