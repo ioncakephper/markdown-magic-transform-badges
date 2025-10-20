@@ -4,7 +4,47 @@
   "main": "index.js",
   "scripts": {
     "test": "jest passWithNoTests",
-    "docs": "npx markdown-magic README.md --config ./markdown-magic.config.js"
+    "fix": "npm run lint:fix && npm run format && npm run format:package",
+    "format": "prettier --write .",
+    "format:package": "prettier --write package.json",
+    "lint": "eslint . --ext .js,.json,.yaml,.yml,.md",
+    "lint:fix": "eslint . --ext .js,.json,.yaml,.yml,.md --fix",
+    "docs": "npx markdown-magic README.md --config ./markdown-magic.config.js",
+    "prep": "npm run docs && npm run fix"
+  },
+  "scriptsMeta": {
+    "docs": {
+      "description": "Generate documentation by processing README.md with markdown-magic.",
+      "category": "documentation"
+    },
+    "fix": {
+      "description": "Automatically fix linting issues and format codebase.",
+      "category": "precommit"
+    },
+    "format": {
+      "description": "Format all project files using Prettier.",
+      "category": "precommit"
+    },
+    "format:package": {
+      "description": "Format the package.json file using Prettier.",
+      "category": "precommit"
+    },
+    "lint": {
+      "description": "Lint all project files to ensure code quality and consistency.",
+      "category": "verification"
+    },
+    "lint:fix": {
+      "description": "Lint all project files and automatically fix issues where possible.",
+      "category": "precommit"
+    },
+    "prep": {
+      "description": "Prepare the project for publishing by generating docs and formatting code.",
+      "category": "precommit"
+    },
+    "test": {
+      "description": "Run the test suite using Jest.",
+      "category": "verification"
+    }
   },
   "repository": {
     "type": "git",
@@ -21,7 +61,19 @@
   "license": "MIT",
   "description": "",
   "devDependencies": {
-    "markdown-magic": "^3.7.0"
+    "markdown-magic": "^3.7.0",
+    "@eslint/js": "^9.37.0",
+    "@eslint/markdown": "^7.4.0",
+    "cross-spawn": "7.0.6",
+    "eslint": "^9.37.0",
+    "eslint-plugin-json": "^4.0.1",
+    "eslint-plugin-yaml": "^1.1.3",
+    "jest": "^30.2.0",
+    "jsonc-eslint-parser": "^2.4.1",
+    "markdown-eslint-parser": "^1.2.1",
+    "markdown-magic-scripts": "^1.3.0",
+    "prettier": "^3.6.2",
+    "yaml-eslint-parser": "^1.3.0"
   },
   "dependencies": {
     "fs": "^0.0.1-security",
