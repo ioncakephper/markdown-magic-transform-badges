@@ -2,10 +2,9 @@
 
 ## [1.1.2](https://github.com/ioncakephper/markdown-magic-transform-badges/compare/v1.1.1...v1.1.2) (2025-10-21)
 
-
 ### Bug Fixes
 
-* (repo-parser): add JSDoc to parseRepo function ([5499a18](https://github.com/ioncakephper/markdown-magic-transform-badges/commit/5499a18d358116fd1611ec750734a6c2f213c108))
+- (repo-parser): add JSDoc to parseRepo function ([5499a18](https://github.com/ioncakephper/markdown-magic-transform-badges/commit/5499a18d358116fd1611ec750734a6c2f213c108))
 
 ## [1.1.1](https://github.com/ioncakephper/markdown-magic-transform-badges/compare/v1.1.0...v1.1.1) (2025-10-20)
 
