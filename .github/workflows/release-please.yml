@@ -39,7 +39,7 @@ jobs:
       # 2. These steps only run IF a new release was successfully created (did_release is true)
 
       - name: Set up Node.js for publishing
-        if: ${{ steps.release.outputs.did_release }}
+        # if: ${{ steps.release.outputs.did_release }}
         uses: actions/setup-node@v4
         with:
           node-version: "20.x"
@@ -48,7 +48,7 @@ jobs:
           registry-url: "https://registry.npmjs.org"
 
       - name: Install dependencies and run scripts
-        if: ${{ steps.release.outputs.did_release }}
+        # if: ${{ steps.release.outputs.did_release }}
         run: |
           echo "New release created: Publishing version ${{ steps.release.outputs.version }}"
           # Use npm ci for clean and fast dependency installation in CI environments
@@ -57,7 +57,7 @@ jobs:
           npm run prep
 
       - name: NPM Publish
-        if: ${{ steps.release.outputs.did_release }}
+        # if: ${{ steps.release.outputs.did_release }}
         run: npm publish --access public
         env:
           # This secret is used by npm to authenticate the publish operation
