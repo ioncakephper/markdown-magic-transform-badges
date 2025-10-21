@@ -1,6 +1,12 @@
 const path = require("path");
 const fs = require("fs");
 
+/**
+ * Parse repository field to extract owner/repo for GitHub
+ *
+ * @param {string} repo - repository URL or object
+ * @returns {string|null} owner/repo or null
+ */
 function parseRepo(repo) {
   if (!repo) return null;
   if (typeof repo === "object" && repo.url) repo = repo.url;
