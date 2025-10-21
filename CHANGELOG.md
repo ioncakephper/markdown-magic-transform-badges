@@ -2,10 +2,9 @@
 
 ## [1.1.1](https://github.com/ioncakephper/markdown-magic-transform-badges/compare/v1.1.0...v1.1.1) (2025-10-20)
 
-
 ### Bug Fixes
 
-* **repo-parser:** adjust comment placement ([0c117ed](https://github.com/ioncakephper/markdown-magic-transform-badges/commit/0c117edcca399e1a81a0ca47c4e0f58f052d4ebd))
+- **repo-parser:** adjust comment placement ([0c117ed](https://github.com/ioncakephper/markdown-magic-transform-badges/commit/0c117edcca399e1a81a0ca47c4e0f58f052d4ebd))
 
 ## [1.1.0](https://github.com/ioncakephper/markdown-magic-transform-badges/compare/v1.0.1...v1.1.0) (2025-10-20)
 
