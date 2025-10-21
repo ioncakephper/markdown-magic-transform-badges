@@ -11,7 +11,7 @@ function parseRepo(repo) {
 
   const m = repo.match(/github\.com[:\/](.+?)\/?$/i);
   if (!m) return null;
-   // owner/repo
+  // owner/repo
   return m[1];
 }
 
