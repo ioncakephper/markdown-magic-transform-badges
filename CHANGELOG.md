@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.5](https://github.com/ioncakephper/markdown-magic-transform-badges/compare/v1.1.4...v1.1.5) (2025-10-22)
+
+
+### Bug Fixes
+
+* **pkg-resolution:** Resolve package.json from CWD ([19f260e](https://github.com/ioncakephper/markdown-magic-transform-badges/commit/19f260eab97ed61dbbfeaa10488c6a424fb2df06))
+
 ## [1.1.4](https://github.com/ioncakephper/markdown-magic-transform-badges/compare/v1.1.3...v1.1.4) (2025-10-22)
 
 ### Bug Fixes
