@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.4](https://github.com/ioncakephper/markdown-magic-transform-badges/compare/v1.1.3...v1.1.4) (2025-10-22)
+
+
+### Bug Fixes
+
+* **core:** Resolve internal package.json path using __dirname ([8be165d](https://github.com/ioncakephper/markdown-magic-transform-badges/commit/8be165d38d8e90e4c73ac4d31d4d03107970d8d2))
+
 ## [1.1.3](https://github.com/ioncakephper/markdown-magic-transform-badges/compare/v1.1.2...v1.1.3) (2025-10-21)
 
 
