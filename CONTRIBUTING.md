@@ -1,4 +1,4 @@
-# Contributing to cli-scaffold
+# Contributing to markdown-magic-transform-badges
 
 Thank you for your interest in contributing! We welcome bug reports, feature requests, and pull requests.
 
