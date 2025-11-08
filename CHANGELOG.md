@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.0](https://github.com/ioncakephper/markdown-magic-transform-badges/compare/v1.2.0...v1.3.0) (2025-11-08)
+
+
+### Features
+
+* **badges:** Add option to exclude specific badges ([ce97eab](https://github.com/ioncakephper/markdown-magic-transform-badges/commit/ce97eab1062c603ef89c6cc76e6be98fdeef33cf))
+* **badges:** Add option to exclude specific badges ([f4eddfc](https://github.com/ioncakephper/markdown-magic-transform-badges/commit/f4eddfccb5cbef07b8758346425e07222e44ba14))
+
 ## [1.2.0](https://github.com/ioncakephper/markdown-magic-transform-badges/compare/v1.1.6...v1.2.0) (2025-11-08)
 
 

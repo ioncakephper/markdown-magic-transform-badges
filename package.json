@@ -1,7 +1,7 @@
 {
   "name": "markdown-magic-transform-badges",
   "description": "A markdown-magic transform to generate badges",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "main": "index.js",
   "scripts": {
     "test": "jest --passWithNoTests",
