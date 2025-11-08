@@ -36,24 +36,29 @@ module.exports = ({ transform, options, settings = {} }) => {
   const name = pkg.name;
 
   // helper to add named badges
-  const pushBadge = (key, md) => allBadges.push({ key, md });
+  const pushBadge = (key, md) => {
+    if (opts.excludeBadges && opts.excludeBadges.includes(key)) {
+      return; // Skip this badge if it's in the exclude list
+    }
+    allBadges.push({ key, md });
+  };
 
   if (name) {
     pushBadge(
       "npmVersion",
       `[![npm version](https://img.shields.io/npm/v/${encodeURIComponent(
-        name,
+        name
       )}.svg${style})](https://www.npmjs.com/package/${encodeURIComponent(
-        name,
-      )})`,
+        name
+      )})`
     );
     pushBadge(
       "npmDownloads",
       `[![npm downloads](https://img.shields.io/npm/dw/${encodeURIComponent(
-        name,
+        name
       )}.svg${style})](https://www.npmjs.com/package/${encodeURIComponent(
-        name,
-      )})`,
+        name
+      )})`
     );
   }
 
@@ -61,10 +66,10 @@ module.exports = ({ transform, options, settings = {} }) => {
     pushBadge(
       "license",
       `[![license](https://img.shields.io/badge/license-${encodeURIComponent(
-        pkg.license,
+        pkg.license
       )}-blue.svg${style})](https://www.npmjs.com/package/${encodeURIComponent(
-        name,
-      )})`,
+        name
+      )})`
     );
   }
 
@@ -84,62 +89,62 @@ module.exports = ({ transform, options, settings = {} }) => {
     const workflowBranch = opts.ciBranch ?? pkg.ciBranch ?? "main";
     pushBadge(
       "actions",
-      `[![actions status](https://img.shields.io/github/actions/workflow/status/${owner}/${repoName}/${workflowFile}?branch=${workflowBranch}${styleAmp})](https://github.com/${ownerRepo}/actions)`,
+      `[![actions status](https://img.shields.io/github/actions/workflow/status/${owner}/${repoName}/${workflowFile}?branch=${workflowBranch}${styleAmp})](https://github.com/${ownerRepo}/actions)`
     );
 
     pushBadge(
       "codecov",
-      `[![codecov](https://img.shields.io/codecov/c/github/${owner}/${repoName}?branch=${workflowBranch}${styleAmp})](https://codecov.io/gh/${ownerRepo})`,
+      `[![codecov](https://img.shields.io/codecov/c/github/${owner}/${repoName}?branch=${workflowBranch}${styleAmp})](https://codecov.io/gh/${ownerRepo})`
     );
 
     pushBadge(
       "release",
-      `[![release](https://img.shields.io/github/v/release/${owner}/${repoName}${style})](https://github.com/${ownerRepo}/releases)`,
+      `[![release](https://img.shields.io/github/v/release/${owner}/${repoName}${style})](https://github.com/${ownerRepo}/releases)`
     );
     // Commit activity / maintained badge (yearly commits)
     pushBadge(
       "maintained",
-      `[![maintained](https://img.shields.io/github/commit-activity/y/${owner}/${repoName}${style})](https://github.com/${ownerRepo}/graphs/commit-activity)`,
+      `[![maintained](https://img.shields.io/github/commit-activity/y/${owner}/${repoName}${style})](https://github.com/${ownerRepo}/graphs/commit-activity)`
     );
     pushBadge(
       "stars",
-      `[![stars](https://img.shields.io/github/stars/${owner}/${repoName}${style})](https://github.com/${ownerRepo}/stargazers)`,
+      `[![stars](https://img.shields.io/github/stars/${owner}/${repoName}${style})](https://github.com/${ownerRepo}/stargazers)`
     );
     pushBadge(
       "forks",
-      `[![forks](https://img.shields.io/github/forks/${owner}/${repoName}${style})](https://github.com/${ownerRepo}/network/members)`,
+      `[![forks](https://img.shields.io/github/forks/${owner}/${repoName}${style})](https://github.com/${ownerRepo}/network/members)`
     );
     pushBadge(
       "watchers",
-      `[![watchers](https://img.shields.io/github/watchers/${owner}/${repoName}${style})](https://github.com/${ownerRepo}/watchers)`,
+      `[![watchers](https://img.shields.io/github/watchers/${owner}/${repoName}${style})](https://github.com/${ownerRepo}/watchers)`
     );
     pushBadge(
       "lastCommit",
-      `[![last commit](https://img.shields.io/github/last-commit/${owner}/${repoName}${style})](https://github.com/${ownerRepo}/commits)`,
+      `[![last commit](https://img.shields.io/github/last-commit/${owner}/${repoName}${style})](https://github.com/${ownerRepo}/commits)`
     );
     pushBadge(
       "contributors",
-      `[![contributors](https://img.shields.io/github/contributors/${owner}/${repoName}${style})](https://github.com/${ownerRepo}/graphs/contributors)`,
+      `[![contributors](https://img.shields.io/github/contributors/${owner}/${repoName}${style})](https://github.com/${ownerRepo}/graphs/contributors)`
     );
     pushBadge(
       "issues",
-      `[![issues](https://img.shields.io/github/issues/${owner}/${repoName}${style})](https://github.com/${ownerRepo}/issues)`,
+      `[![issues](https://img.shields.io/github/issues/${owner}/${repoName}${style})](https://github.com/${ownerRepo}/issues)`
     );
     pushBadge(
       "pulls",
-      `[![pull requests](https://img.shields.io/github/issues-pr/${owner}/${repoName}${style})](https://github.com/${ownerRepo}/pulls)`,
+      `[![pull requests](https://img.shields.io/github/issues-pr/${owner}/${repoName}${style})](https://github.com/${ownerRepo}/pulls)`
     );
     pushBadge(
       "repoSize",
-      `[![repo size](https://img.shields.io/github/repo-size/${owner}/${repoName}${style})](https://github.com/${ownerRepo})`,
+      `[![repo size](https://img.shields.io/github/repo-size/${owner}/${repoName}${style})](https://github.com/${ownerRepo})`
     );
     pushBadge(
       "topLanguage",
-      `[![top language](https://img.shields.io/github/languages/top/${owner}/${repoName}${style})](https://github.com/${ownerRepo})`,
+      `[![top language](https://img.shields.io/github/languages/top/${owner}/${repoName}${style})](https://github.com/${ownerRepo})`
     );
     pushBadge(
       "languages",
-      `[![languages](https://img.shields.io/github/languages/count/${owner}/${repoName}${style})](https://github.com/${ownerRepo}/search?l=)`,
+      `[![languages](https://img.shields.io/github/languages/count/${owner}/${repoName}${style})](https://github.com/${ownerRepo}/search?l=)`
     );
   }
 

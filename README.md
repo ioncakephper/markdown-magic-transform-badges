@@ -1,7 +1,6 @@
 # markdown-magic-transform-badges
 
 <!-- doc-gen BADGES style=for-the-badge collapse=true collapseLabel="More badges" collapseVisible=7 ciWorkflow="ci.yml" ciBranch="main" -->
-
 [![npm version](https://img.shields.io/npm/v/markdown-magic-transform-badges.svg?style=for-the-badge)](https://www.npmjs.com/package/markdown-magic-transform-badges) [![actions status](https://img.shields.io/github/actions/workflow/status/ioncakephper/markdown-magic-transform-badges/ci.yml?branch=main&style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/actions) [![license](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://www.npmjs.com/package/markdown-magic-transform-badges) [![maintained](https://img.shields.io/github/commit-activity/y/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/graphs/commit-activity) [![npm downloads](https://img.shields.io/npm/dw/markdown-magic-transform-badges.svg?style=for-the-badge)](https://www.npmjs.com/package/markdown-magic-transform-badges) [![codecov](https://img.shields.io/codecov/c/github/ioncakephper/markdown-magic-transform-badges?branch=main&style=for-the-badge)](https://codecov.io/gh/ioncakephper/markdown-magic-transform-badges) [![release](https://img.shields.io/github/v/release/ioncakephper/markdown-magic-transform-badges?style=for-the-badge)](https://github.com/ioncakephper/markdown-magic-transform-badges/releases)
 
 <details>
@@ -157,61 +156,58 @@ This project is licensed under the terms of the MIT License. See the [`LICENSE`]
 ## Helper Scripts
 
 <!-- doc-gen SCRIPTS format=list -->
-
-- `docs` — Generate documentation by processing README.md with markdown-magic. (line [12](./package.json#L12))
+- `docs` — Generate documentation by processing README.md with markdown-magic. (line [13](./package.json#L13))
 
   ```bash
   npx markdown-magic README.md --config ./markdown-magic.config.js
   ```
 
-- `fix` — Automatically fix linting issues and format codebase. (line [7](./package.json#L7))
+- `fix` — Automatically fix linting issues and format codebase. (line [8](./package.json#L8))
 
   ```bash
   npm run lint:fix && npm run format && npm run format:package
   ```
 
-- `format` — Format all project files using Prettier. (line [8](./package.json#L8))
+- `format` — Format all project files using Prettier. (line [9](./package.json#L9))
 
   ```bash
   prettier --write .
   ```
 
-- `format:package` — Format the package.json file using Prettier. (line [9](./package.json#L9))
+- `format:package` — Format the package.json file using Prettier. (line [10](./package.json#L10))
 
   ```bash
   prettier --write package.json
   ```
 
-- `lint` — Lint all project files to ensure code quality and consistency. (line [10](./package.json#L10))
+- `lint` — Lint all project files to ensure code quality and consistency. (line [11](./package.json#L11))
 
   ```bash
   eslint . --ext .js,.json,.yaml,.yml,.md
   ```
 
-- `lint:fix` — Lint all project files and automatically fix issues where possible. (line [11](./package.json#L11))
+- `lint:fix` — Lint all project files and automatically fix issues where possible. (line [12](./package.json#L12))
 
   ```bash
   eslint . --ext .js,.json,.yaml,.yml,.md --fix
   ```
 
-- `prep` — Prepare the project for publishing by generating docs and formatting code. (line [13](./package.json#L13))
+- `prep` — Prepare the project for publishing by generating docs and formatting code. (line [14](./package.json#L14))
 
   ```bash
   npm run docs && npm run fix
   ```
 
-- `test` — Run the test suite using Jest. (line [6](./package.json#L6))
+- `test` — Run the test suite using Jest. (line [7](./package.json#L7))
 
   ```bash
   jest --passWithNoTests
   ```
-
   <!-- end-doc-gen -->
 
 ## Repository Structure
 
 <!-- doc-gen fileTree -->
-
 ```
 └── markdown-magic-transform-badges/
     ├── .pretierrc.json
@@ -226,5 +222,4 @@ This project is licensed under the terms of the MIT License. See the [`LICENSE`]
     ├── README.md
     └── RULES_OF_CONDUCT.md
 ```
-
 <!-- end-doc-gen -->
