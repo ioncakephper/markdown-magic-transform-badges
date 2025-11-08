@@ -1,6 +1,6 @@
 {
   "name": "markdown-magic-transform-badges",
-  "description": "",
+  "description": "A markdown-magic transform to generate badges",
   "version": "1.2.0",
   "main": "index.js",
   "scripts": {
