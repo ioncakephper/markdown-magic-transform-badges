@@ -39,8 +39,6 @@ module.exports = ({ transform, options, settings = {} }) => {
   const allBadges = [];
   const name = pkg.name;
 
-  console.log(`Exclude Badges: ${opts.excludeBadges}`);
-
   // helper to add named badges
   const pushBadge = (key, md) => {
     if (opts.excludeBadges && opts.excludeBadges.includes(key)) {
@@ -193,9 +191,9 @@ module.exports = ({ transform, options, settings = {} }) => {
     hidden.push(byKey[k]);
   }
 
-  // If collapse not requested or nothing hidden, return all inline
+  // If collapse not requested or nothing hidden, return all inline, with a trailing space
   if (!collapse || hidden.length === 0) {
-    return allBadges.map((b) => b.md).join(" ");
+    return allBadges.map((b) => b.md).join(" ") + " ";
   }
 
   // Build collapsed output
