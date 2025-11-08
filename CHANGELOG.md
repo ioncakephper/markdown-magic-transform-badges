@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.0](https://github.com/ioncakephper/markdown-magic-transform-badges/compare/v1.3.0...v1.4.0) (2025-11-08)
+
+
+### Features
+
+* **badges:** Display npm version and downloads badges by default ([0712603](https://github.com/ioncakephper/markdown-magic-transform-badges/commit/071260308be01e6e00f6b69b4c47ddb94e33f750))
+* **badges:** Display npm version and downloads badges by default ([bf82813](https://github.com/ioncakephper/markdown-magic-transform-badges/commit/bf82813aa53cc7c04a81c4d01dcdf6c5ffa1ab41))
+
 ## [1.3.0](https://github.com/ioncakephper/markdown-magic-transform-badges/compare/v1.2.0...v1.3.0) (2025-11-08)
 
 
