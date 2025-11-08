@@ -128,6 +128,7 @@ This will replace the block with the generated badge markup according to the ena
   before collapsing the rest.
 - `ciWorkflow`: string (optional) — GitHub Actions workflow file name. Uses value from options or package.json, defaults to 'ci.yml'.
 - `ciBranch`: string (optional) — GitHub Actions branch name. Uses value from options or package.json, defaults to 'main'.
+- `excludeBadges`: array of string — Exclude badges in array from output. 
 
 Example usage in README.md:
 
