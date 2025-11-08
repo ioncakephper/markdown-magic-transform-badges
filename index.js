@@ -19,6 +19,10 @@ module.exports = ({ transform, options, settings = {} }) => {
     style: null,
     ciWorkflow: "ci.yml",
     ciBranch: "main",
+    excludeBadges: [],
+    // collapse: true,
+    // collapseLabel: "More badges",
+    // collapseVisible: 3,
   };
   const globalOptions =
     (settings.transformDefaults && settings.transformDefaults[transform]) || {};
@@ -34,6 +38,8 @@ module.exports = ({ transform, options, settings = {} }) => {
 
   const allBadges = [];
   const name = pkg.name;
+
+  console.log(`Exclude Badges: ${opts.excludeBadges}`);
 
   // helper to add named badges
   const pushBadge = (key, md) => {
